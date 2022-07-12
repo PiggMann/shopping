@@ -10,7 +10,7 @@
           >支付</el-button
         >
         <el-button type="primary" v-else disabled
-          >您的余额为 {{ userStore.totalPrice }} ，请去打工！</el-button
+          >您的余额为 {{ userStore.cash }} ，请去打工！</el-button
         >
       </div>
       <div class="product" v-for="(item, index) of userStore.cart">
